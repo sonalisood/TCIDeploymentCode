@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/SendGreetings" xmlns:tns="http://www.example.org/SendGreetings" elementFormDefault="qualified">
+
+    <element name="Request" type="tns:requestType"></element>
+
+    <complexType name="requestType">
+    	<sequence>
+    		<element name="Name" type="string"></element>
+    		<element name="GreetingType" type="string"></element>
+    		<element name="YearsOfService" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="Response" type="tns:responseType"></element>
+
+    <complexType name="responseType">
+    	<sequence>
+    		<element name="Message" type="string"></element>
+    		<element name="YearsOfService" type="string"></element>
+    		<element name="GreetingType" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>

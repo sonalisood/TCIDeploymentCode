@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<completeReportDTO>
+    <moduleResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="testSuiteResultDTO">
+        <moduleInfo>
+            <appName>sendWAGreetings.application</appName>
+            <appVersion>1.0</appVersion>
+            <moduleName>sendWAGreetings</moduleName>
+            <moduleVersion>1.0.0.qualifier</moduleVersion>
+        </moduleInfo>
+        <testSetResult xsi:type="testSetResultDTO">
+            <packageName>sendgreetings</packageName>
+            <processName>sendgreetings.SubProcess</processName>
+            <testCaseResult xsi:type="testCaseResultDTO">
+                <assertionFailure>0</assertionFailure>
+                <assertionResult xsi:type="assertionResultDTO">
+                    <activityName>Mapper</activityName>
+                    <activityOutput></activityOutput>
+                    <assertionMode>Primitive</assertionMode>
+                    <assertionStatus>passed</assertionStatus>
+                    <endElementNameTag>&lt;/tns:YearsOfService&gt;</endElementNameTag>
+                    <goldInput>&lt;tns:YearsOfService&gt;1&lt;/tns:YearsOfService&gt;</goldInput>
+                    <instanceId>bw0a100</instanceId>
+                    <message></message>
+                    <startElementNameTag>&lt;tns:YearsOfService&gt;</startElementNameTag>
+                </assertionResult>
+                <assertions>1</assertions>
+                <assertionsRun>1</assertionsRun>
+                <processFailures>0</processFailures>
+                <testCaseFile>/sendGreetings/Tests/sendGreetingsTest2.bwt</testCaseFile>
+            </testCaseResult>
+        </testSetResult>
+        <showFailureDetails>false</showFailureDetails>
+    </moduleResult>
+</completeReportDTO>
